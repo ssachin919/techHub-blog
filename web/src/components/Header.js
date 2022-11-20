@@ -78,7 +78,7 @@ function Header() {
               </ActionButton>
               <ul>
                 {menu.map((item) => (
-                  <li key={item.path}>
+                  <li key={item.path} style={{background: "rgba(0, 0, 0, 0.75)", borderRadius: "0.8rem"}}>
                     <Link to={item.path} onClick={handleNavItemClick}>
                       {item.title}
                     </Link>

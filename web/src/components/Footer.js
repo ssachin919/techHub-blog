@@ -12,10 +12,10 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat neque
-          commodi perspiciatis quibusdam delectus voluptas ab eos natus laborum!
-          Veritatis, facilis modi. Ex, adipisci. Ab, atque. Debitis officia qui
-          vero!
+          CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
+          Cryptocurrencies, NFT, Distributed Ledger and much more. Web 3.0 enables
+          creators to actually own their content over internet! Start Exploring
+          Now! <br /> © CoinsLive - Crypto Decrypted!
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -32,7 +32,7 @@ function Footer() {
           ))}
         </ul>
         <ParagraphText className="copyright">
-          © TechHub-Blog Creative {new Date().getFullYear()}. All rights
+          © CoinsLive - Crypto Decrypted! {new Date().getFullYear()}. All rights
           reserved
         </ParagraphText>
       </div>

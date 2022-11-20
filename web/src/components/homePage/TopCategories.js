@@ -27,8 +27,8 @@ function TopCategories() {
     <TopCategoriesStyles>
       <SectionTitle>Top Categories</SectionTitle>
       <ParagraphText className="info">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae veniam
-        fuga minima.
+      CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
+      Cryptocurrencies, NFT, Distributed Ledger and much more. 
       </ParagraphText>
       <CategoryGrid categories={categories} />
     </TopCategoriesStyles>

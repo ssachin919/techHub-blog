@@ -39,9 +39,8 @@ function FeaturedBlogs() {
     <FeaturedBlogsStyles>
       <SectionTitle>Featured Blogs</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nemo
-        ad provident consectetur quis eaque doloribus et, ducimus earum iste est
-        corporis
+      CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
+      Cryptocurrencies, NFT, Distributed Ledger and much more. 
       </ParagraphText>
       <BlogGrid blogs={featuredBlogs} />
     </FeaturedBlogsStyles>

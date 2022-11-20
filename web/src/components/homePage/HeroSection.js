@@ -11,10 +11,10 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">Explore the world with Technology</h1>
+            <h1 className="hero__heading">Explore the matrix with Web3 Technology</h1>
             <ParagraphText className="hero__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
-              ipsum dolor sit amet consectetur adipisicing elit
+            CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
+            Cryptocurrencies, NFT, Distributed Ledger and much more. 
             </ParagraphText>
             <Button to="/blogs" tag={Link} className="hero__button">
               Explore Blogs
@@ -23,8 +23,8 @@ function HeroSection() {
           <div className="right">
             <StaticImage
               className="hero__image"
-              src="../../images/vr-guy.jpg"
-              alt="vr guy"
+              src="../../../assets/cryptocurrency matrix neo-1668975418528.jpeg"
+              alt="blockchain"
               placeholder="blurred"
               objectPosition="50% 30%"
             />

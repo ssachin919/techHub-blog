@@ -48,7 +48,8 @@ function Blogs({ data, pageContext }) {
         <div className="container">
           <PageHeader
             title="All Blog Posts"
-            description="This month will bring about the 88th Academy Awards. Starting in 1928, this prestigious award ceremony..."
+            description="CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
+            Cryptocurrencies, NFT, Distributed Ledger and much more...."
           />
           <BlogGrid blogs={blogs} />
           {numberOfPages > 1 && (
