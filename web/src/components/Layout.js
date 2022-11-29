@@ -5,6 +5,7 @@ import 'normalize.css/normalize.css';
 import Footer from './Footer';
 import Search from './search/SearchModal';
 import { SearchModalContextProvider } from '../contexts/searchModalContext';
+import CryptoCoins from './homePage/CryptoCoins';
 
 function Layout({ children }) {
   return (

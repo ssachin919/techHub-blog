@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import { HeroSectionStyles } from '../../styles/homePage/HeroSectionStyles';
 import ParagraphText from '../typography/ParagraphText';
 import Button from '../buttons/Button';
+import { socialLinks } from '../../constants/socialLinks';
 
 function HeroSection() {
   return (
@@ -19,6 +20,13 @@ function HeroSection() {
             <Button to="/blogs" tag={Link} className="hero__button">
               Explore Blogs
             </Button>
+            <ul className="hero__socialList">
+              {socialLinks.map((item) => (
+                <li key={item.name}>
+                  <a href={item.url}>{item.icon}</a>
+                </li>
+              ))}
+            </ul>
           </div>
           <div className="right">
             <StaticImage

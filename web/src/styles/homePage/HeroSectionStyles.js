@@ -38,6 +38,23 @@ export const HeroSectionStyles = styled.div`
       .hero__button {
         margin-top: 1.5rem;
       }
+      .hero__socialList {
+        margin-top: 1.5rem;
+        li {
+          display: inline-block;
+          margin: 0 0.5rem;
+          a {
+            display: inline-block;
+            width: 20px;
+            color: var(--gray);
+          }
+          :hover {
+            a {
+              color: #733BFE;
+            }
+          }
+        }
+      }
     }
     .right {
       position: absolute;

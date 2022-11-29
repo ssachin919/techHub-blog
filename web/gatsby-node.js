@@ -14,6 +14,8 @@ exports.createPages = async ({ graphql, actions }) => {
   );
   const authorListTemplate = require.resolve('./src/templates/author-list.js');
 
+  const tradingPageTemplate = require.resolve('./src/templates/trading-page.js');
+
   const { createPage } = actions;
 
   const result = await graphql(`
@@ -119,6 +121,25 @@ exports.createPages = async ({ graphql, actions }) => {
         numberOfPages: totalAuthorListPages,
         currentPage: index + 1,
       },
+    });
+  });
+
+  // const func = () => {
+  //   createPage({
+  //     path: '/trading-page',
+  //     component: tradingPageTemplate
+  //   });
+  //   console.log("here Jai Shri Ram")
+  // }
+  // func();
+
+  let array=[1];
+
+  array.forEach(() => {
+    createPage({
+      path: `/trading-page`,
+      component: tradingPageTemplate,
+      // context: { id: author.id },
     });
   });
 };

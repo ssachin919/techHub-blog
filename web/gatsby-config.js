@@ -3,11 +3,24 @@ const sanityConfig = require('./sanity-config.js');
 
 module.exports = {
   siteMetadata: {
-    title: `TechHub-blog`,
-    siteUrl: `https://techhub-blog.netlify.com`,
-    description: `TechHub Blog is a platform for latest technology news and updates.`,
+    title: `CoinsLive - Crypto Decrypted!`,
+    siteUrl: `https://coinslive.org`,
+    description: `CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain, Cryptocurrencies, NFT, Distributed Ledger and much more`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-NRXP6MP',
+        includeInDevelopment: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-7053654572548587`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
