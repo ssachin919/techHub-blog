@@ -12,13 +12,13 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">Explore the matrix with Web3 Technology</h1>
+            <h1 className="hero__heading">Explore VideoUploader<br/> Built on Web3.0 Backend</h1>
             <ParagraphText className="hero__text">
             CoinsLive is a community of Web 3.0 enthusiasts. Explore Blockchain,
             Cryptocurrencies, NFT, Distributed Ledger and much more. 
             </ParagraphText>
-            <Button to="/blogs" tag={Link} className="hero__button">
-              Explore Blogs
+            <Button to="https://video-uploader-nzpjd0ae1-ssachin919.vercel.app/" tag={Link} className="hero__button">
+              VideoUploader 3.0
             </Button>
             <ul className="hero__socialList">
               {socialLinks.map((item) => (
